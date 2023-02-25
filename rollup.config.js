@@ -20,7 +20,7 @@ export default {
     output: {
         format,
         extend: true,
-        name: npm_package_globalObject,
+        name: "bundle",
         globals: {
             '@digitalpersona/core': 'dp.core',
             '@digitalpersona/services': 'dp.services',
